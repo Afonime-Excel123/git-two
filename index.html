@@ -7,5 +7,15 @@
 </head>
 <body>
     <h1>Job Finder</h1>
-</body>
+    <form action="search.php" method="POST">
+        <label for="job_title">Job Title:</label>
+        <input type="text" id="job_title" name="job_title" required>
+        <br>
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location" required>
+        <br>
+        <input type="submit" value="Search">
+    </form>
+    <h2>Search Results</h2>
+    </body>
 </html>
